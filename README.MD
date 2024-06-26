@@ -50,3 +50,43 @@
 4. Done - Sell secret information for some $
 
    ![Flex](images/Flex.png)
+   
+   
+   
+   # Additional information
+
+1. Used Machine (Arch Linux)
+
+<img src="/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626192012845.png" alt="image-20240626192012845" style="zoom: 67%;" />
+
+2. GCC compilation
+
+   - **-g** option - tells the compiler to produce symbol table for object file code (maps source code to the produced object instructions).
+
+   With the -g option we can see source code in the object file (objdump -S app)
+
+   <img src="/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626192616546.png" alt="image-20240626192616546" style="zoom: 67%;" />
+
+   - **-o *name*** option - tells the compiler to produce application with specified ***name***. 
+
+     Например **-o *app*** означает название файла должно быть ***app***
+
+3. Редактирования скомпилированного файла **app**
+
+   Используется графическое приложение GHex **https://wiki.gnome.org/Apps/Ghex**
+
+   Открывается файл **app** и изменяется 0x01 на 0x00 а затем этот файл **сохраняется** с тем же именем а затем он же и запускается заного - этот файл взломанная версия. (Никакие исходники например app.c не изменяются так ка у нас нет доступа кним со стороны аттакующего)
+
+   
+
+4. Замечания по коду
+
+   ![image-20240626193552634](/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626193552634.png)
+
+Тут выбрано произвольное число для того чтобы никого не пропускать кто его не знает. Число может быть любым и нужно просто для наглядности примера. После воода такого число как аргумент программе, программа разблокируется, иначе будет выход с ошибкой о неверном пароле.
+
+
+
+Пример с неправильным паролем.
+
+![image-20240626193805768](/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626193805768.png)
