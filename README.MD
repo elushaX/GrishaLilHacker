@@ -57,7 +57,7 @@
 
 1. Used Machine (Arch Linux)
 
-<img src="/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626192012845.png" alt="image-20240626192012845" style="zoom: 67%;" />
+![Screenshot from 2024-06-26 19-20-02](images/Screenshot from 2024-06-26 19-20-02.png)
 
 2. GCC compilation
 
@@ -65,7 +65,7 @@
 
    With the -g option we can see source code in the object file (objdump -S app)
 
-   <img src="/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626192616546.png" alt="image-20240626192616546" style="zoom: 67%;" />
+   .![Screenshot from 2024-06-26 19-25-33](images/Screenshot from 2024-06-26 19-25-33.png)
 
    - **-o *name*** option - tells the compiler to produce application with specified ***name***. 
 
@@ -81,7 +81,7 @@
 
 4. Замечания по коду
 
-   ![image-20240626193552634](/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626193552634.png)
+   ![Screenshot from 2024-06-26 19-34-22](images/Screenshot from 2024-06-26 19-34-22.png)
 
 Тут выбрано произвольное число для того чтобы никого не пропускать кто его не знает. Число может быть любым и нужно просто для наглядности примера. После воода такого число как аргумент программе, программа разблокируется, иначе будет выход с ошибкой о неверном пароле.
 
@@ -89,4 +89,4 @@
 
 Пример с неправильным паролем.
 
-![image-20240626193805768](/home/auser/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20240626193805768.png)
+![Screenshot from 2024-06-26 19-37-56](images/Screenshot from 2024-06-26 19-37-56.png)
