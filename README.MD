@@ -57,7 +57,7 @@
 
 1. Used Machine (Arch Linux)
 
-![Screenshot from 2024-06-26 19-20-02](images/Screenshot from 2024-06-26 19-20-02.png)
+![Screenshot from 2024-06-26 19-20-02](images/1.png)
 
 2. GCC compilation
 
@@ -65,7 +65,7 @@
 
    With the -g option we can see source code in the object file (objdump -S app)
 
-   .![Screenshot from 2024-06-26 19-25-33](images/Screenshot from 2024-06-26 19-25-33.png)
+   .![Screenshot from 2024-06-26 19-25-33](images/2.png)
 
    - **-o *name*** option - tells the compiler to produce application with specified ***name***. 
 
@@ -81,7 +81,7 @@
 
 4. Замечания по коду
 
-   ![Screenshot from 2024-06-26 19-34-22](images/Screenshot from 2024-06-26 19-34-22.png)
+   ![Screenshot from 2024-06-26 19-34-22](images/3.png)
 
 Тут выбрано произвольное число для того чтобы никого не пропускать кто его не знает. Число может быть любым и нужно просто для наглядности примера. После воода такого число как аргумент программе, программа разблокируется, иначе будет выход с ошибкой о неверном пароле.
 
@@ -89,4 +89,4 @@
 
 Пример с неправильным паролем.
 
-![Screenshot from 2024-06-26 19-37-56](images/Screenshot from 2024-06-26 19-37-56.png)
+![Screenshot from 2024-06-26 19-37-56](images/4.png)
